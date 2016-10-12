@@ -1,3 +1,3 @@
 $whiteArtifact = $('.white-artifact');
 
-$whiteArtifact.draggable();
+$whiteArtifact.pep();
