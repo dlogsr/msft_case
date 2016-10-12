@@ -1,0 +1,10 @@
+body{
+	background-color: #000;
+}
+
+.white-artifact{
+	background-color:  #fff;
+	width: 8em;
+	height: 8em;
+	border-radius: 2em;
+}
