@@ -66,6 +66,11 @@ function bounceback(){
 			else if(page == "pay.html"){
 				$bottom.text("RECEIVED MONEY");
 			}
+			else if (page == "lnkd.html"){
+				$whiteArtifact.removeClass('art-linked');
+				$whiteArtifact.addClass('art-linked-add');
+				$('.linked-text').text("NEW REQUEST");
+			}
 			$whiteArtifact.animate({top:'+=500'},1000,"easeOutExpo");
 		},500);
 }

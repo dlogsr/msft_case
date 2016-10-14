@@ -95,6 +95,21 @@ body{
 	
 }
 
+.art-linked-add{
+	background-image: url('linkedin_add.png');	 
+}
+
+.linked-text{
+	position: absolute;
+	bottom: -20px;
+	color: #fff;
+	font-size:28px;
+	font-weight: bold;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
 .bot-linked{
 	background-image: url('linkedin_full.png');
 }
