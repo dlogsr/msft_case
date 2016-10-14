@@ -17,6 +17,11 @@ body{
 	top: 0 !important;
 }
 
+.container.black{
+	color: #000;
+	font-size: 72px;
+}
+
 .hidden-toggle{
 	z-index: 999;
 	width: 50px;
