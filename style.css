@@ -4,7 +4,7 @@ html{
 
 body{
 	background-color: #000;
-	background-image: url('linkedin_full.png');
+	/* background-image: url('linkedin_full.png'); */
 	background-repeat:  no-repeat;
 	background-position: bottom;
 	background-size: contain;
@@ -13,21 +13,40 @@ body{
 	height: 500px;
 }
 
+.hidden-toggle{
+	z-index: 999;
+	width: 50px;
+	height: 50px;
+	background-color: #222;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
 .container{
 	width: 100%;
 	text-align:center;
 	margin: auto;
 	/* position: relative; */
+	font-family: Calibri;
+	font-size: 72px;
 }
 
 .bottom{
 	position: fixed;
+	height: 200px;
+	background-repeat:  no-repeat;
+	background-position: bottom;
+	background-size: contain;
 	bottom: 0;
 }
 
 .white-artifact{
 	/* background-color: #fff; */
-	background-image: 	url('linkedin.png');
+	z-index: 998;
+	position: absolute;
+	left: 0;
+	right: 0;
 	background-size: cover;
 	background-position: center;
 	color: #000;
@@ -38,4 +57,40 @@ body{
 	width: 200px;
 	height: 200px;
 	border-radius: 10px;
+}
+
+.art-msft{
+	background-image: url('msft.png');
+}
+
+.bot-msft{
+	background-image: url('msft_full.png');
+}
+
+.art-linked{
+	background-image: url('linkedin.png');
+	
+}
+
+.bot-linked{
+	background-image: url('linkedin_full.png');
+}
+
+.art-printer{
+	background-image:  url('printer.png');
+}
+
+.bot-print{
+
+}
+
+.test{
+	background-color: green !important;
+}
+
+.moveDown{
+		-webkit-transition: left 0.4s cubic-bezier(.45,.59,.96,.84);
+		-moz-transition: left 0.4s ease-out;
+		-o-transition: left 0.4s ease-out;
+		transition: left 0.4s ease-out;
 }
