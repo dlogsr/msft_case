@@ -4,6 +4,7 @@ html{
 
 body{
 	background-color: #000;
+	color: #fff;
 	text-align:  center;
 	height: 2000px;
 }
@@ -12,6 +13,12 @@ body{
 	width: 100%;
 	text-align:center;
 	margin: auto;
+	/* position: relative; */
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0;
 }
 
 .white-artifact{
