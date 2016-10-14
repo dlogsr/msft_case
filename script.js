@@ -47,7 +47,7 @@ $(document).ready(function(){
 function bounceback(){
 		// $whiteArtifact.data('plugin_pep').revert();
 		$whiteArtifact.removeAttr('style');
-		$whiteArtifact.animate({top:'-200'},0)
+		$whiteArtifact.animate({top:'-300'},0)
 		setTimeout(function(){
 			if(page == "shop.html"){
 				console.log("coupontime");
@@ -66,6 +66,6 @@ function bounceback(){
 			else if(page == "pay.html"){
 				$bottom.text("RECEIVED MONEY");
 			}
-			$whiteArtifact.animate({top:'+=600'},1000,"easeOutExpo");
+			$whiteArtifact.animate({top:'+=500'},1000,"easeOutExpo");
 		},500);
 }
