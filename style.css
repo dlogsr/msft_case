@@ -107,6 +107,22 @@ body{
 	background-image:  url('shop.png');
 }
 
+.art-coupon{
+	background-image: url('coupon.png');
+}
+
+.art-checkin{
+	background-image: url('checkin.png');
+}
+
+.art-checkin-done{
+	background-image: url('checkin_done.png');
+}
+
+.art-lecture{
+	background-image: url('lecture.png');
+}
+
 .test{
 	background-color: green !important;
 }
