@@ -4,9 +4,13 @@ html{
 
 body{
 	background-color: #000;
+	background-image: url('linkedin_full.png');
+	background-repeat:  no-repeat;
+	background-position: bottom;
+	background-size: contain;
 	color: #fff;
 	text-align:  center;
-	height: 2000px;
+	height: 700px;
 }
 
 .container{
