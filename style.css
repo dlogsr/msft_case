@@ -13,6 +13,10 @@ body{
 	height: 500px;
 }
 
+.container-main *{
+	top: 0 !important;
+}
+
 .hidden-toggle{
 	z-index: 999;
 	width: 50px;
@@ -44,7 +48,7 @@ body{
 
 .bottom{
 	position: fixed;
-	height: 150px;
+	height: 175px;
 	background-repeat:  no-repeat;
 	background-position: bottom;
 	background-size: contain;

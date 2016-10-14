@@ -47,7 +47,7 @@ $(document).ready(function(){
 function bounceback(){
 		// $whiteArtifact.data('plugin_pep').revert();
 		$whiteArtifact.removeAttr('style');
-		$whiteArtifact.animate({top:'-300'},0)
+		$whiteArtifact.animate({top:'-200'},0)
 		setTimeout(function(){
 			if(page == "shop.html"){
 				console.log("coupontime");
