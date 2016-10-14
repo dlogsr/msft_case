@@ -10,7 +10,7 @@ body{
 	background-size: contain;
 	color: #fff;
 	text-align:  center;
-	height: 500px;
+	min-height: 800px;
 }
 
 .container-main *{
@@ -20,6 +20,7 @@ body{
 .container.black{
 	color: #000;
 	font-size: 72px;
+	display: block;
 }
 
 .hidden-toggle{
