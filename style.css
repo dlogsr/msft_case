@@ -10,7 +10,7 @@ body{
 	background-size: contain;
 	color: #fff;
 	text-align:  center;
-	
+	min-height: 1400px;
 }
 
 .container-main *{
@@ -21,7 +21,6 @@ body{
 	color: #000;
 	font-size: 72px;
 	display: block;
-	min-height: 1400px;
 }
 
 .hidden-toggle{
@@ -60,6 +59,7 @@ body{
 	background-position: bottom;
 	background-size: contain;
 	bottom: 0;
+	padding-bottom: 8em;
 }
 
 .white-artifact{
