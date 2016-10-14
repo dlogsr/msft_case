@@ -24,4 +24,10 @@ $(document).ready(function(){
 		console.log('reload');
 		location.reload();
 	});
+
+	$('.art-msft').on('tap',function(){
+		window.location.replace("msft.html");
+	})
+
+
 });
