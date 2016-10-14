@@ -1,6 +1,17 @@
+html{
+	overflow: hidden;
+}
+
 body{
 	background-color: #000;
 	text-align:  center;
+	height: 2000px;
+}
+
+.container{
+	width: 100%;
+	text-align:center;
+	margin: auto;
 }
 
 .white-artifact{
@@ -10,6 +21,7 @@ body{
 	background-position: center;
 	color: #000;
 	text-align: center;
+	margin: auto;
 	font-family: Calibri;
 	font-size: 72px;
 	width: 200px;
