@@ -1,5 +1,6 @@
 $whiteArtifact = $('.white-artifact');
 $hButton = $('.hidden-toggle');
+$rButton = $('.hidden-reload');
 
 window.addEventListener("load", function() { window. scrollTo(0, 0); });
 document.addEventListener("touchmove", function(e) { e.preventDefault() });
@@ -18,5 +19,9 @@ $(document).ready(function(){
 			
 			$whiteArtifact.animate({top:'+=600'},1000,"easeOutExpo");
 		},500);
+	});
+	$rButton.on('tap',function(){
+		console.log('reload');
+		location.reload();
 	});
 });
